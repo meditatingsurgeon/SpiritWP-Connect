@@ -1,0 +1,13 @@
+{
+    "name": "spiritwp/connect",
+    "description": "Bidirectional integration between WordPress and Clientexec",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpiritWP\\Connect\\": "includes/"
+        }
+    }
+}
